@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 
-//Routes
+// All Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 //Start the server
